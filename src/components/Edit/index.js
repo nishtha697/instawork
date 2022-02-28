@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Link, useHistory, useLocation} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import '../Add/index.css';
 import {useDispatch} from "react-redux";
 
@@ -45,7 +45,7 @@ const Edit = () => {
                    placeholder="Phone number" value={phone} onChange={(e) => setPhone(e.target.value)}/><br/>
             <h5>Role</h5>
             <div className="row border-bottom pt-2 pb-2">
-                <label className="form-check-label col-11" htmlFor="regular">
+                <label className={`form-check-label col-11 ${role !== "admin" ? "select" : ""}`} htmlFor="regular">
                     Regular - Can't delete members
                 </label>
                 <div className="col-1">
@@ -55,7 +55,7 @@ const Edit = () => {
                 </div>
             </div>
             <div className="row border-bottom pt-2 pb-2">
-                <label className="form-check-label col-11" htmlFor="admin">
+                <label className={`form-check-label col-11 ${role === "admin" ? "select" : ""}`} htmlFor="admin">
                     Admin - Can delete members
                 </label>
                 <div className="col-1">

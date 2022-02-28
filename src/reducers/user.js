@@ -11,9 +11,9 @@ const user = (state = userData, action) => {
                     u.phone = action.user.phone;
                     u.role = action.user.role;
                 }
+                return u
             });
             return state
-            break;
 
         case 'create-user':
             let user = {
@@ -21,11 +21,9 @@ const user = (state = userData, action) => {
                 _id: (new Date()).getTime() + ''
             }
             return ([user, ...state]);
-            break;
 
         case 'delete-user':
             return state.filter(user => user._id !== action.user._id);
-            break;
 
         default:
             return (state);

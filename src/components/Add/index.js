@@ -1,8 +1,8 @@
 import React, {useState} from "react";
-import {Link, useHistory} from "react-router-dom";
+import {Link} from "react-router-dom";
 import './index.css';
 import {useDispatch} from "react-redux";
-import {ToastContainer, toast} from "react-toastify";
+import {toast} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
 
 const Add = () => {
