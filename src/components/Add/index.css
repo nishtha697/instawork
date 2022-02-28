@@ -1,0 +1,29 @@
+.save {
+    float: right;
+    margin-top: 20px;
+}
+
+.select {
+    font-weight: bold;
+    color: black;
+}
+label {
+   color: gray;
+ }
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: small;
+}
+.delete {
+    background-color: white;
+    color: deeppink;
+    border: solid thin lightgrey;
+    float: left;
+    margin-top: 20px;
+}
+.delete:hover {
+    background-color: deeppink;
+}

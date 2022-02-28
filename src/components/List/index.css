@@ -1,0 +1,28 @@
+body{
+}
+.icon {
+    color: #0d6efd;
+    float: right;
+    font-size: x-large;
+}
+.fa-user-circle {
+    color: #b7b6b6;
+    font-size: 50px;
+}
+
+.list-group-item {
+   border: none;
+}
+
+.username {
+    font-weight: bold;
+    color: #262525;
+}
+
+.text {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}

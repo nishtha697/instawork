@@ -1,0 +1,27 @@
+[
+  {
+    "_id": 1,
+    "name": "Adrien Olczak",
+    "phone": "456-567-456",
+    "email": "adrien@instawork.com",
+    "role": "admin"
+  },
+  {
+    "_id": 2,
+    "name": "Charlene Pham",
+    "phone": "456-567-456",
+    "email": "charlene@instawork.com"
+  },
+  {
+    "_id": 3,
+    "name": "Benson Mach",
+    "phone": "456-567-456",
+    "email": "benson@instawork.com"
+  },
+  {
+    "_id": 4,
+    "name": "Dan Petrie",
+    "phone": "456-567-456",
+    "email": "dan@instawork.com"
+  }
+]
